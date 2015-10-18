@@ -17,8 +17,8 @@ body, p, a {
   border: 1px solid #fff;
 }
 
-a:link, a:visited, a:hover, a:active, a:focus, li:active, li:focus {
-  box-shadow: none !important;
+a:link, a:visited, a:hover, a:active, a:focus {
+  outline:0px !important;
 }
 
 /*
@@ -71,10 +71,6 @@ body {
   }
 }
 
-.site-wrapper a, a:focus, a:hover {
-  color: #fff;
-}
-
 
 /*
  * Header
@@ -98,9 +94,9 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
+  padding-top: 15px;
   font-size: 16px;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #fff;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
@@ -142,6 +138,11 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
 }
 
 
@@ -154,10 +155,6 @@ body {
   .masthead {
     position: fixed;
     top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
   }
 
   /* Handle the widths */
