@@ -93,6 +93,30 @@ body {
   border-bottom-color: #fff;
 }
 
+/* Signup form */
+#mc_embed_signup .user-type-radios {
+  display: none;
+  float: left;
+  width: 100%;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  top: -2px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+#mc_embed_signup .user-type-radios .radio-inline {
+  text-align: left;
+  width: 50%;
+  padding: 10px 15px 10px 30px;
+  float: left;
+  margin: 0 !important;
+}
+#mc_embed_signup .user-type-radios .radio-inline:last-child {
+  border-left: 1px solid #ccc;
+}
+
+
 /* Modal */
 .modal {
   color: #333;
@@ -120,8 +144,6 @@ body {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 
-  position: fixed;
-  bottom: 0;
   width: 100%;
   padding: 15px;
 }
@@ -136,6 +158,11 @@ body {
   .masthead {
     position: fixed;
     top: 0;
+  }
+
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
   }
 
   /* Handle the widths */
