@@ -50,8 +50,6 @@ body {
   background-color: #f7f7f7;
 }
 
-.container { margin-top: 200px; }
-
 /* Extra markup and styles */
 .site-wrapper {
   color: #333;
@@ -60,6 +58,7 @@ body {
   height: 100%; /* For at least Firefox */
   min-height: 100%;
   margin: 0 auto -50px;
+  padding-top: 200px;
 
   background: #f7f7f7 url('../images/fog-optimized.jpg') top center no-repeat;
   -webkit-background-size: cover;
@@ -84,28 +83,15 @@ body {
   color: rgba(255,255,255,.5);
 
   width: 100%;
-  padding: 15px;
+  padding: 15px 0;
   height: 50px;
 }
 
 
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-
-  /* Handle the widths */
-  .masthead,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
 
 @media (max-width: 767px) {
 
-  .container { margin-top: 50px; }
-  .site-wrapper h1 {
+  .site-wrapper { padding-top: 50px; }
+  .container { padding: 0 30px; }
 
-  }
 }
