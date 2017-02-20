@@ -1,2 +1,2 @@
 # merrickbenjamin.github.io
-Temp tenacity marketing site
+Personal website
