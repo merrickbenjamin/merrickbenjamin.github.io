@@ -74,6 +74,13 @@ body {
   margin: 0 10px;
 }
 
+@media (max-width: 767px) {
+
+  .site-wrapper { padding-top: 50px; }
+  .container { padding: 0 30px; }
+
+}
+
 
 /*
  * Footer
@@ -88,10 +95,59 @@ body {
 }
 
 
+/*Portfolio modal*/
+.modal {
+  background: #fff;
+  opacity: 1;
+}
 
+.fade {
+  background: #fff;
+  opacity: 0;
+}
+
+.modal-dialog {
+  width: 100%;
+  margin: 0;
+}
 @media (max-width: 767px) {
+  margin: 0;
+}
 
-  .site-wrapper { padding-top: 50px; }
-  .container { padding: 0 30px; }
+.project-spacer {
+  height: 60px;
+}
 
+.gallery-container {
+  height: 420px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.side-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 450px;
+  padding-left: 30px;
+}
+@media (min-width: 768px) {
+  .side-scroll { padding-left: calc((100% - 720px)/2); }
+}
+@media (min-width: 992px) {
+  .side-scroll { padding-left: calc((100% - 940px)/2); }
+}
+@media (min-width: 1200px) {
+  .side-scroll { padding-left: calc((100% - 1140px)/2); }
+}
+
+
+.side-scroll .portfolio-img {
+  width: 200px;
+  height: 360px;
+  min-width: 200px;
+  margin-right: 30px;
+  background: #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
 }
