@@ -155,8 +155,8 @@ section.project {
 }
 
 .side-scroll .portfolio-img.desktop {
-  width: 800px;
-  min-width: 800px;
+  width: 900px;
+  min-width: 900px;
 }
 
 .side-scroll .portfolio-text {
@@ -164,4 +164,26 @@ section.project {
   height: 360px;
   min-width: 200px;
   margin-right: 60px;
+}
+
+.portfolio-img {
+  overflow-y: auto;
+}
+
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-row-spacer {
+  width: 60px;
+}
+
+.portfolio-text svg.fa-long-arrow-alt-right {
+  font-size: 30px;
+  color: #ccc;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
