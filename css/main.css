@@ -58,16 +58,23 @@ body {
   height: 100%; /* For at least Firefox */
   min-height: 100%;
   margin: 0 auto -50px;
-  padding-top: 200px;
+  padding-top: 100px;
+}
 
-  background: #f7f7f7 url('../images/fog-optimized.jpg') top center no-repeat;
+.hero-img-container {
+  background: #f7f7f7;
+  height: 500px;
+  border-radius: 4px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   background-position: 50% 40%;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
 }
+
+.hero-img-container#fog { background-image: url('../images/heroes/fog.jpg'); }
+.hero-img-container#tenacity { background-image: url('../images/heroes/austria.jpg'); }
 
 .slash {
   color: #aaa;
@@ -83,19 +90,18 @@ body {
 
 
 /*
- * Footer
+ * Portfolio modal
  */
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
 
-  width: 100%;
-  padding: 15px 0;
-  height: 50px;
+/*Lazy load image fade*/
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
-
-/*Portfolio modal*/
+img[data-src] {
+  opacity: 0;
+}
 
 .modal {
   background: #fff;

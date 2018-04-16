@@ -28,12 +28,12 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+          <div class="col-sm-10 col-sm-offset-1 col-lg-3 col-lg-offset-0">
             <h1>
               Benjamin Merrick
             </h1>
             <br/>
-            <p>I'm a designer and developer &mdash; currently the UX Design Lead at <a href="https://www.nutmeg.com/" target="_blank">Nutmeg</a> and Cofounder of <a href="http://mytenacity.org/" target="_blank">Tenacity</a>. Here to do good work, and work that does good. You can find me in the usual places:</p>
+            <p>I'm a designer and developer &mdash; currently the Head of UX at <a href="https://www.nutmeg.com/" target="_blank">Nutmeg</a> and Cofounder of <a href="http://mytenacity.org/" target="_blank">Tenacity</a>. I'm here to do <a href="javascript:void(0);" data-toggle="modal" data-target="#portfolio">good work that does good</a>. You can find me in the usual places:</p>
             <br>
             <p>
               <a href="https://www.linkedin.com/in/benjamin-merrick-5159b224" target="_blank">Li</a>
@@ -44,6 +44,13 @@
               <span class="slash">/</span>
               <a href="mailto:merrick.benjamin@gmail.com" target="_blank">Em</a>
             </p>
+            <br>
+            <br>
+          </div>
+          <div class="col-sm-10 col-sm-offset-1 col-lg-9 col-lg-offset-0">
+            <div class="hero-img-container" id="fog" style="display:none;"></div>
+            <div class="hero-img-container" id="tenacity" style="display: none;"></div>
+            <!--img data-src="images/fog-optimized.jpg" alt="fog" />-->
           </div>
         </div>
 
@@ -52,27 +59,13 @@
 
     </div>
 
-    <div class="mastfoot">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-            <p>
-              <small>
-                &copy; 2018 Benjamin Merrick
-                <br class="visible-xs" />
-              </small>
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
     <div class="modal fade" id="portfolio" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="container">
-          <h1>Portfolio | Benjamin Merrick</h1>
+          <h1 class="pull-left">Portfolio | Benjamin Merrick</h1>
+          <a href="javascript:void(0);" class="close" data-dismiss="modal" aria-label="Close" style="float: right; font-size: 30px; margin: 22px 0;"><span aria-hidden="true"><i class="fa fa-home"></i></span></a>
+          <div class="clearfix"></div>
+          <p class="text-muted">Scroll <i class="fa fa-arrows-alt-v"></i> for more projects, <i class="fa fa-arrows-alt-h"></i> for more about each project.</p>
         </div>
 
         <section class="project" id="tenacity">
@@ -97,13 +90,13 @@
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img">
-                <img src="images/tenacity/tenacity-dashboard-mobile.png" />
+                <img data-src="images/tenacity/tenacity-dashboard-mobile.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/tenacity/tenacity-dashboard-desktop.png" />
+                <img data-src="images/tenacity/tenacity-dashboard-desktop.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/tenacity/tenacity-task-mobile.png" />
+                <img data-src="images/tenacity/tenacity-task-mobile.png" />
               </div>
               <div class="portfolio-text">
                 <p>The student signup process was designed to be as seamless as possible, while also welcoming the student and getting them fired up to achieve their college dreams.</p>
@@ -111,32 +104,32 @@
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img no-scroll">
-                <img src="images/tenacity/tenacity-signup-1-mobile.png" />
+                <img data-src="images/tenacity/tenacity-signup-1-mobile.png" />
               </div>
               <div class="portfolio-img no-scroll">
-                <img src="images/tenacity/tenacity-signup-2-mobile.png" />
+                <img data-src="images/tenacity/tenacity-signup-2-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/tenacity/tenacity-signup-3-mobile.png" />
+                <img data-src="images/tenacity/tenacity-signup-3-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/tenacity/tenacity-welcome-1-mobile.png" />
+                <img data-src="images/tenacity/tenacity-welcome-1-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/tenacity/tenacity-welcome-2-mobile.png" />
+                <img data-src="images/tenacity/tenacity-welcome-2-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/tenacity/tenacity-welcome-3-mobile.png" />
+                <img data-src="images/tenacity/tenacity-welcome-3-mobile.png" />
               </div>
               <div class="portfolio-text">
                 <p>The mentor and administrator accounts make it easy to help students, even if as a mentor you're not a college expert yourself.</p>
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img">
-                <img src="images/tenacity/tenacity-mentor-dashboard-1-mobile.png" />
+                <img data-src="images/tenacity/tenacity-mentor-dashboard-1-mobile.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/tenacity/tenacity-admin-dashboard-1-desktop.png" />
+                <img data-src="images/tenacity/tenacity-admin-dashboard-1-desktop.png" />
               </div>
               <div class="portfolio-text"></div>
             </div>
@@ -156,43 +149,43 @@
                 <p>My greatest contribution was in adapting the complex layouts for all devices (both in design and development).</p>
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-tio/nutmeg-tio-1-mobile.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-1-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-tio/nutmeg-tio-2-mobile.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-2-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-tio/nutmeg-tio-3-mobile.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-3-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-tio/nutmeg-tio-4-mobile.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-4-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-tio/nutmeg-tio-5-mobile.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-5-mobile.png" />
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-tio/nutmeg-tio-6-mobile.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-6-mobile.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-tio/nutmeg-tio-1.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-1.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-tio/nutmeg-tio-2.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-2.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-tio/nutmeg-tio-3.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-3.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-tio/nutmeg-tio-4.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-4.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-tio/nutmeg-tio-5.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-5.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-tio/nutmeg-tio-6.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-6.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-tio/nutmeg-tio-7.png" />
+                <img data-src="images/nutmeg-tio/nutmeg-tio-7.png" />
               </div>
             </div>
           </div>
@@ -211,14 +204,14 @@
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img">
-                <img src="" />
+                <img data-src="" />
               </div>
               <div class="portfolio-text">
                 <p>With that insight, our next challenge was one of presenting the choice in a way that users would both understand and yet breeze through. We strived to reduce its weight through copy, prototyping myriad combinations and turns of phrase to see how people would react.</p>
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img">
-                <img src="" />
+                <img data-src="" />
               </div>
             </div>
           </div>
@@ -237,10 +230,10 @@
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-lisa/lisa-projection-mobile.png" />
+                <img data-src="images/nutmeg-lisa/lisa-projection-mobile.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-lisa/lisa-projection-desktop.png" />
+                <img data-src="images/nutmeg-lisa/lisa-projection-desktop.png" />
               </div>
               <div class="portfolio-text">
                 <p>One of our challenges was how to help people figure out if the Lifetime ISA was right for them, given that it lacked any prior public understanding. We discovered that a better way to learn the new tax rules would be to simply answer a series of questions about yourself and your situation — and then reveal how, or if, the Lifetime ISA (or one of Nutmeg's other offerings) fit into that.</p>
@@ -248,10 +241,10 @@
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-lisa/lisa-decider-mobile.png" />
+                <img data-src="images/nutmeg-lisa/lisa-decider-mobile.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-lisa/lisa-decider-desktop.png" />
+                <img data-src="images/nutmeg-lisa/lisa-decider-desktop.png" />
               </div>
             </div>
           </div>
@@ -270,10 +263,10 @@
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img">
-                <img src="images/nutmeg-mifid/mifid-mobile.png" />
+                <img data-src="images/nutmeg-mifid/mifid-mobile.png" />
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-mifid/mifid-desktop.png" />
+                <img data-src="images/nutmeg-mifid/mifid-desktop.png" />
               </div>
             </div>
           </div>
@@ -292,7 +285,7 @@
                 <p><i class="fa fa-long-arrow-alt-right"></i></p>
               </div>
               <div class="portfolio-img desktop">
-                <img src="images/nutmeg-2sv/2sv-desktop.png" />
+                <img data-src="images/nutmeg-2sv/2sv-desktop.png" />
               </div>
             </div>
           </div>
