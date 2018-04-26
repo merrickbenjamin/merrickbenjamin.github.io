@@ -62,33 +62,15 @@ body {
 }
 
 .hero-img-container {
-  background: #999;
+  display: none;
   width: 100%;
-  padding-bottom: 75%;
   border-radius: 4px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*background-position: 50% 40%;*/
   box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
 }
 
-.hero-img-container#austria { background-image: url('../images/heroes/austria.jpg'); }
-.hero-img-container#autumn { background-image: url('../images/heroes/autumn.jpg'); }
-.hero-img-container#boston { background-image: url('../images/heroes/boston.jpg'); }
-.hero-img-container#fog { background-image: url('../images/heroes/fog.jpg'); }
-.hero-img-container#hk { background-image: url('../images/heroes/hk.jpg'); }
-.hero-img-container#iceland1 { background-image: url('../images/heroes/iceland1.jpg'); }
-.hero-img-container#iceland2 { background-image: url('../images/heroes/iceland2.jpg'); }
-.hero-img-container#kauai { background-image: url('../images/heroes/kauai.jpg'); }
-.hero-img-container#patagonia1 { background-image: url('../images/heroes/patagonia1.jpg'); }
-.hero-img-container#patagonia2 { background-image: url('../images/heroes/patagonia2.jpg'); }
-.hero-img-container#patagonia3 { background-image: url('../images/heroes/patagonia3.jpg'); }
-.hero-img-container#patagonia4 { background-image: url('../images/heroes/patagonia4.jpg'); }
-.hero-img-container#pattern { background-image: url('../images/heroes/pattern.jpg'); }
-.hero-img-container#tunnel { background-image: url('../images/heroes/tunnel.jpg'); }
-.hero-img-container#valparaiso { background-image: url('../images/heroes/valparaiso.jpg'); }
+@media (min-width: 1200px) {
+  .hero-img-container { margin-top: -40px; }
+}
 
 .slash {
   color: #aaa;
